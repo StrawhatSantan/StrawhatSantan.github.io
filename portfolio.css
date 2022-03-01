@@ -1,0 +1,77 @@
+header{
+    background-image: url('orange.jpg');
+    background-size: auto;
+}
+
+.nav-bar-elements{
+    margin-left: 175px;
+    margin-top: -20px;
+}
+
+#nav{
+margin-left: 50px;
+color:#fff;
+font-family: georgia;
+}
+
+.header-details{
+    margin-left: 110px;
+    padding-top: 80px;
+    
+}
+
+#header-photo{
+    margin-left: 110px;
+}
+
+.info-text{
+    margin-left: 270px;
+    margin-top: -110px;
+    font-family: Futura;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#nav:link, #nav:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+#nav:hover, #nav:active {
+    background-color: red;
+  }
+
+.bio{
+    font-family: Futura;
+    opacity: 0.4;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: justify;
+    color: #fff;
+}
+
+.cent{
+    text-align: center;
+}
+main{
+    background-color:aliceblue;
+    padding-top:0mm;
+    margin-top:0mm;
+}
+
+.main, ul{
+    font-family: Open Sans;
+    font-weight: bold;
+    text-align: justify;
+}
+
+h2 {
+    font-family: 'league_spartanbold';
+    src: url('leaguespartan-bold-webfont.woff2') format('woff2'),
+         url('leaguespartan-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
