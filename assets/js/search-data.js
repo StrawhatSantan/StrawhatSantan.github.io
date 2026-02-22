@@ -492,13 +492,6 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=O8iAoE4AAAAJ", "_blank");
         },
       },{
-        id: 'social-whatsapp',
-        title: 'whatsapp',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://wa.me/33781743299", "_blank");
-        },
-      },{
         id: 'social-x',
         title: 'X',
         section: 'Socials',
