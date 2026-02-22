@@ -15,8 +15,12 @@
               {{ venue_style }}
             {% endif -%}
           >
-            {% if site.data.venues[entry.abbr].url %}
-              <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
+            {% assign venue_url = site.data.venues[entry.abbr].url %}
+            {% if entry.abbr == 'EUVIP' %}
+              {% assign venue_url = 'https://www.euvip2024.org' %}
+            {% endif %}
+            {% if venue_url %}
+              <a href="{{ venue_url }}">{{ entry.abbr }}</a>
             {% else %}
               <div>{{- entry.abbr -}}</div>
             {% endif %}
