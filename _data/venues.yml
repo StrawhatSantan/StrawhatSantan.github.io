@@ -1,9 +1,7 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"WACV":
+  url: https://wacv.thecvf.com/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+"EUVIP":
+  url: https://www.euvip.org/
+  color: "#0a4ea1"
