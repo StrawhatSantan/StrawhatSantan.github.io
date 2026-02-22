@@ -15,3 +15,15 @@ const openSearchModal = () => {
   }
   ninjaKeys.open();
 };
+
+// Keep backward compatibility for any inline handlers.
+window.openSearchModal = openSearchModal;
+
+// Use a JS listener so the button works even without inline onclick.
+const searchToggleBtn = document.querySelector("#search-toggle");
+if (searchToggleBtn) {
+  searchToggleBtn.addEventListener("click", (event) => {
+    event.preventDefault();
+    openSearchModal();
+  });
+}
